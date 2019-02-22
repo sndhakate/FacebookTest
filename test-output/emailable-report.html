@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">22</td><td class="numi">22</td><td class="numi">0</td><td class="numi">0</td><td class="numi">291.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="22">DemoMaven.FacebookTest.FacebookTestCases</td><td><a href="#m1"><b>Birthday_Input_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900203126</td><td class="numi">796</td></tr><tr class="passedodd"><td><a href="#m2"><b>Blank_Username_Password_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900107997</td><td class="numi">2045</td></tr><tr class="passedodd"><td><a href="#m3"><b>BusinessOrBrand_Page_Test</b>  </a></td><td class="numi">1</td><td>1549900253447</td><td class="numi">5610</td></tr><tr class="passedodd"><td><a href="#m4"><b>Click_On_GenderOption_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900211478</td><td class="numi">134</td></tr><tr class="passedodd"><td><a href="#m5"><b>Create_New_Account_Visible_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900157484</td><td class="numi">5025</td></tr><tr class="passedodd"><td><a href="#m6"><b>Create_a_Page_Test</b>  </a></td><td class="numi">1</td><td>1549900229997</td><td class="numi">3064</td></tr><tr class="passedodd"><td><a href="#m7"><b>Create_a_Page_Visible_Test</b>  </a></td><td class="numi">1</td><td>1549900240372</td><td class="numi">4885</td></tr><tr class="passedodd"><td><a href="#m8"><b>Facebook_Logo_Visible_Test</b>  </a></td><td class="numi">1</td><td>1549900015029</td><td class="numi">2031</td></tr><tr class="passedodd"><td><a href="#m9"><b>Firstname_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900170069</td><td class="numi">662</td></tr><tr class="passedodd"><td><a href="#m10"><b>Invalid_Username_Password_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900117691</td><td class="numi">2040</td></tr><tr class="passedodd"><td><a href="#m11"><b>MobileNo_OR_Email_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900186264</td><td class="numi">187</td></tr><tr class="passedodd"><td><a href="#m12"><b>New_Passwod_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900194786</td><td class="numi">151</td></tr><tr class="passedodd"><td><a href="#m13"><b>Password_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900073863</td><td class="numi">40</td></tr><tr class="passedodd"><td><a href="#m14"><b>SignUp_Submit_Button_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900222125</td><td class="numi">226</td></tr><tr class="passedodd"><td><a href="#m15"><b>Surname_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900178079</td><td class="numi">161</td></tr><tr class="passedodd"><td><a href="#m16"><b>Username_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900063546</td><td class="numi">25</td></tr><tr class="passedodd"><td><a href="#m17"><b>check_Links</b> (Regression) </a></td><td class="numi">1</td><td>1549900099373</td><td class="numi">607</td></tr><tr class="passedodd"><td><a href="#m18"><b>check_Links_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900090669</td><td class="numi">1251</td></tr><tr class="passedodd"><td><a href="#m19"><b>check_LoginButton_Color_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900082678</td><td class="numi">359</td></tr><tr class="passedodd"><td><a href="#m20"><b>valid_Username_Password_Logout_Test</b> (Regression) </a></td><td class="numi">1</td><td>1549900127768</td><td class="numi">17493</td></tr><tr class="passedodd"><td><a href="#m21"><b>verifyPageTitleTest</b>  </a></td><td class="numi">1</td><td>1549900036933</td><td class="numi">33</td></tr><tr class="passedodd"><td><a href="#m22"><b>verify_title</b>  </a></td><td class="numi">1</td><td>1549900048700</td><td class="numi">341</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">DemoMaven.FacebookTest.FacebookTestCases:MobileNo_OR_Email_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">DemoMaven.FacebookTest.FacebookTestCases:New_Passwod_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">DemoMaven.FacebookTest.FacebookTestCases:Password_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">DemoMaven.FacebookTest.FacebookTestCases:Blank_Username_Password_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">DemoMaven.FacebookTest.FacebookTestCases:Facebook_Logo_Visible_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">DemoMaven.FacebookTest.FacebookTestCases:check_LoginButton_Color_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">DemoMaven.FacebookTest.FacebookTestCases:Surname_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">DemoMaven.FacebookTest.FacebookTestCases:SignUp_Submit_Button_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">DemoMaven.FacebookTest.FacebookTestCases:Create_New_Account_Visible_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">DemoMaven.FacebookTest.FacebookTestCases:Username_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">DemoMaven.FacebookTest.FacebookTestCases:valid_Username_Password_Logout_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">DemoMaven.FacebookTest.FacebookTestCases:Birthday_Input_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">DemoMaven.FacebookTest.FacebookTestCases:Create_a_Page_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">DemoMaven.FacebookTest.FacebookTestCases:BusinessOrBrand_Page_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">DemoMaven.FacebookTest.FacebookTestCases:verify_title</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">DemoMaven.FacebookTest.FacebookTestCases:Firstname_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">DemoMaven.FacebookTest.FacebookTestCases:Create_a_Page_Visible_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">DemoMaven.FacebookTest.FacebookTestCases:check_Links_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">DemoMaven.FacebookTest.FacebookTestCases:Invalid_Username_Password_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">DemoMaven.FacebookTest.FacebookTestCases:verifyPageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">DemoMaven.FacebookTest.FacebookTestCases:Click_On_GenderOption_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">DemoMaven.FacebookTest.FacebookTestCases:check_Links</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="291521" started-at="2019-02-11T15:46:08Z" finished-at="2019-02-11T15:50:59Z">
+    <groups>
+      <group name="Regression">
+        <method signature="FacebookTestCases.Birthday_Input_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Birthday_Input_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Blank_Username_Password_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Blank_Username_Password_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Click_On_GenderOption_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Click_On_GenderOption_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Create_New_Account_Visible_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Create_New_Account_Visible_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Firstname_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Firstname_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Invalid_Username_Password_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Invalid_Username_Password_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.MobileNo_OR_Email_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="MobileNo_OR_Email_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.New_Passwod_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="New_Passwod_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Password_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Password_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.SignUp_Submit_Button_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SignUp_Submit_Button_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Surname_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Surname_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.Username_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Username_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.check_Links()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="check_Links" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.check_Links_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="check_Links_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.check_LoginButton_Color_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="check_LoginButton_Color_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+        <method signature="FacebookTestCases.valid_Username_Password_Logout_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="valid_Username_Password_Logout_Test" class="DemoMaven.FacebookTest.FacebookTestCases"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="291521" started-at="2019-02-11T15:46:08Z" finished-at="2019-02-11T15:50:59Z">
+      <class name="DemoMaven.FacebookTest.FacebookTestCases">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="46800" started-at="2019-02-11T21:16:08Z" finished-at="2019-02-11T21:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Facebook_Logo_Visible_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Facebook_Logo_Visible_Test" duration-ms="2031" started-at="2019-02-11T21:16:55Z" finished-at="2019-02-11T21:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook_Logo_Visible_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="1237" started-at="2019-02-11T21:16:57Z" finished-at="2019-02-11T21:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="18634" started-at="2019-02-11T21:16:58Z" finished-at="2019-02-11T21:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyPageTitleTest()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="verifyPageTitleTest" duration-ms="33" started-at="2019-02-11T21:17:16Z" finished-at="2019-02-11T21:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="1470" started-at="2019-02-11T21:17:16Z" finished-at="2019-02-11T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="10263" started-at="2019-02-11T21:17:18Z" finished-at="2019-02-11T21:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verify_title()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="verify_title" duration-ms="341" started-at="2019-02-11T21:17:28Z" finished-at="2019-02-11T21:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_title -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="743" started-at="2019-02-11T21:17:29Z" finished-at="2019-02-11T21:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="13760" started-at="2019-02-11T21:17:29Z" finished-at="2019-02-11T21:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Username_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Username_Test" duration-ms="25" started-at="2019-02-11T21:17:43Z" finished-at="2019-02-11T21:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="749" started-at="2019-02-11T21:17:43Z" finished-at="2019-02-11T21:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="9540" started-at="2019-02-11T21:17:44Z" finished-at="2019-02-11T21:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Password_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Password_Test" duration-ms="40" started-at="2019-02-11T21:17:53Z" finished-at="2019-02-11T21:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="740" started-at="2019-02-11T21:17:53Z" finished-at="2019-02-11T21:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="8034" started-at="2019-02-11T21:17:54Z" finished-at="2019-02-11T21:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="check_LoginButton_Color_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="check_LoginButton_Color_Test" duration-ms="359" started-at="2019-02-11T21:18:02Z" finished-at="2019-02-11T21:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_LoginButton_Color_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="687" started-at="2019-02-11T21:18:03Z" finished-at="2019-02-11T21:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6942" started-at="2019-02-11T21:18:03Z" finished-at="2019-02-11T21:18:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="check_Links_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="check_Links_Test" duration-ms="1251" started-at="2019-02-11T21:18:10Z" finished-at="2019-02-11T21:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-02-11T21:18:11Z" finished-at="2019-02-11T21:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6749" started-at="2019-02-11T21:18:12Z" finished-at="2019-02-11T21:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="check_Links()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="check_Links" duration-ms="607" started-at="2019-02-11T21:18:19Z" finished-at="2019-02-11T21:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="670" started-at="2019-02-11T21:18:19Z" finished-at="2019-02-11T21:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="7347" started-at="2019-02-11T21:18:20Z" finished-at="2019-02-11T21:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Blank_Username_Password_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Blank_Username_Password_Test" duration-ms="2045" started-at="2019-02-11T21:18:27Z" finished-at="2019-02-11T21:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blank_Username_Password_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="690" started-at="2019-02-11T21:18:30Z" finished-at="2019-02-11T21:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6957" started-at="2019-02-11T21:18:30Z" finished-at="2019-02-11T21:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Invalid_Username_Password_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Invalid_Username_Password_Test" duration-ms="2040" started-at="2019-02-11T21:18:37Z" finished-at="2019-02-11T21:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Username_Password_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="677" started-at="2019-02-11T21:18:39Z" finished-at="2019-02-11T21:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="7359" started-at="2019-02-11T21:18:40Z" finished-at="2019-02-11T21:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="valid_Username_Password_Logout_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="valid_Username_Password_Logout_Test" duration-ms="17493" started-at="2019-02-11T21:18:47Z" finished-at="2019-02-11T21:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_Username_Password_Logout_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="1488" started-at="2019-02-11T21:19:05Z" finished-at="2019-02-11T21:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="10734" started-at="2019-02-11T21:19:06Z" finished-at="2019-02-11T21:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Create_New_Account_Visible_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Create_New_Account_Visible_Test" duration-ms="5025" started-at="2019-02-11T21:19:17Z" finished-at="2019-02-11T21:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_Account_Visible_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="736" started-at="2019-02-11T21:19:22Z" finished-at="2019-02-11T21:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6820" started-at="2019-02-11T21:19:23Z" finished-at="2019-02-11T21:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Firstname_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Firstname_Test" duration-ms="662" started-at="2019-02-11T21:19:30Z" finished-at="2019-02-11T21:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstname_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="662" started-at="2019-02-11T21:19:30Z" finished-at="2019-02-11T21:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6685" started-at="2019-02-11T21:19:31Z" finished-at="2019-02-11T21:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Surname_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Surname_Test" duration-ms="161" started-at="2019-02-11T21:19:38Z" finished-at="2019-02-11T21:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Surname_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="708" started-at="2019-02-11T21:19:38Z" finished-at="2019-02-11T21:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="7315" started-at="2019-02-11T21:19:38Z" finished-at="2019-02-11T21:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="MobileNo_OR_Email_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="MobileNo_OR_Email_Test" duration-ms="187" started-at="2019-02-11T21:19:46Z" finished-at="2019-02-11T21:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileNo_OR_Email_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="723" started-at="2019-02-11T21:19:46Z" finished-at="2019-02-11T21:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="7611" started-at="2019-02-11T21:19:47Z" finished-at="2019-02-11T21:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="New_Passwod_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="New_Passwod_Test" duration-ms="151" started-at="2019-02-11T21:19:54Z" finished-at="2019-02-11T21:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Passwod_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="722" started-at="2019-02-11T21:19:54Z" finished-at="2019-02-11T21:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="7466" started-at="2019-02-11T21:19:55Z" finished-at="2019-02-11T21:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Birthday_Input_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Birthday_Input_Test" duration-ms="796" started-at="2019-02-11T21:20:03Z" finished-at="2019-02-11T21:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Birthday_Input_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-02-11T21:20:03Z" finished-at="2019-02-11T21:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6868" started-at="2019-02-11T21:20:04Z" finished-at="2019-02-11T21:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Click_On_GenderOption_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Click_On_GenderOption_Test" duration-ms="134" started-at="2019-02-11T21:20:11Z" finished-at="2019-02-11T21:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_GenderOption_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="756" started-at="2019-02-11T21:20:11Z" finished-at="2019-02-11T21:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="9756" started-at="2019-02-11T21:20:12Z" finished-at="2019-02-11T21:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SignUp_Submit_Button_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SignUp_Submit_Button_Test" duration-ms="226" started-at="2019-02-11T21:20:22Z" finished-at="2019-02-11T21:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Submit_Button_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="693" started-at="2019-02-11T21:20:22Z" finished-at="2019-02-11T21:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6952" started-at="2019-02-11T21:20:23Z" finished-at="2019-02-11T21:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Create_a_Page_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Create_a_Page_Test" duration-ms="3064" started-at="2019-02-11T21:20:29Z" finished-at="2019-02-11T21:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_a_Page_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="668" started-at="2019-02-11T21:20:33Z" finished-at="2019-02-11T21:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="6642" started-at="2019-02-11T21:20:33Z" finished-at="2019-02-11T21:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Create_a_Page_Visible_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="Create_a_Page_Visible_Test" duration-ms="4885" started-at="2019-02-11T21:20:40Z" finished-at="2019-02-11T21:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_a_Page_Visible_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-02-11T21:20:45Z" finished-at="2019-02-11T21:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="SetUp" is-config="true" duration-ms="7511" started-at="2019-02-11T21:20:45Z" finished-at="2019-02-11T21:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="BusinessOrBrand_Page_Test()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="BusinessOrBrand_Page_Test" duration-ms="5610" started-at="2019-02-11T21:20:53Z" finished-at="2019-02-11T21:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessOrBrand_Page_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DemoMaven.FacebookTest.FacebookTestCases@32d992b2]" name="tearDown" is-config="true" duration-ms="677" started-at="2019-02-11T21:20:59Z" finished-at="2019-02-11T21:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DemoMaven.FacebookTest.FacebookTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

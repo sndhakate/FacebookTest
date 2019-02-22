@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="DemoMaven.FacebookTest.FacebookTestCases">
+        <methods>
+          <include name="Create_a_Page_Test"/>
+          <include name="BusinessOrBrand_Page_Test"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="Create_a_Page_Visible_Test"/>
+          <include name="valid_Username_Password_Logout_Test"/>
+        </methods>
+      </class> <!-- DemoMaven.FacebookTest.FacebookTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
